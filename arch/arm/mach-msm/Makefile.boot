@@ -185,6 +185,10 @@ ifeq ($(CONFIG_MACH_A3_UL), y)
 	htc_dtb-$(CONFIG_ARCH_MSM8226)  += msm8926-a3ul.dtb
 endif
 
+ifeq ($(CONFIG_MACH_A3_TL), y)
+    htc_dtb-$(CONFIG_ARCH_MSM8226)	+= msm8926-a3tl.dtb
+endif
+
 ifeq ($(CONFIG_MACH_MEM_UL), y)
 	htc_dtb-$(CONFIG_ARCH_MSM8226)  += msm8926-memul.dtb
 endif
