@@ -17,7 +17,7 @@
 /include/ "msm-ncp6924.dtsi"
 /include/ "dsi-panel-a3.dtsi"
 /include/ "msm8926-touch-a3ul-config.dtsi"
-/include/ "msm8226-a3ul-storage.dtsi"
+/include/ "msm8226-a3-storage.dtsi"
 /include/ "msm8926-remove-cp-mm.dtsi"
 
 / {
