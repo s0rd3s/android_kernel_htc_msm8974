@@ -805,14 +805,14 @@ static struct msm_gpiomux_config ncgpio_configs[] __initdata = {
                        [GPIOMUX_SUSPENDED] = &ncgpio_config,
                },
        },
-       {
+	   {
                .gpio = 54,
                .settings = {
                        [GPIOMUX_ACTIVE] = &ncgpio_config,
                        [GPIOMUX_SUSPENDED] = &ncgpio_config,
                },
        },
-	   {
+       {
                .gpio = 55,
                .settings = {
                        [GPIOMUX_ACTIVE] = &ncgpio_config,
@@ -863,6 +863,13 @@ static struct msm_gpiomux_config ncgpio_configs[] __initdata = {
        },
 	   {
                .gpio = 80,
+               .settings = {
+                       [GPIOMUX_ACTIVE] = &ncgpio_config,
+                       [GPIOMUX_SUSPENDED] = &ncgpio_config,
+               },
+       },
+	   {
+               .gpio = 82,
                .settings = {
                        [GPIOMUX_ACTIVE] = &ncgpio_config,
                        [GPIOMUX_SUSPENDED] = &ncgpio_config,
