@@ -309,6 +309,7 @@ obj-$(CONFIG_ARCH_MSM8226) += board-htc-8x26.o htc_acoustic_alsa.o
 obj-$(CONFIG_ARCH_MSM8226) += board-8226-audio.o
 obj-$(CONFIG_MACH_MEM_UL) += board-mem-audio-amp.o
 obj-$(CONFIG_MACH_MEM_UL) += board-mem-gpiomux.o
+obj-$(CONFIG_MACH_A3) += board-a3-gpiomux.o
 obj-$(CONFIG_MACH_A5) += board-afe-audio-amp.o
 obj-$(CONFIG_MACH_A5) += board-a5-gpiomux.o
 obj-$(CONFIG_ARCH_MSM8226) += board-8226.o board-8226-gpiomux.o
