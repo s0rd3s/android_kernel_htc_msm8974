@@ -298,7 +298,7 @@ int sysctl_tcp_delack_seg __read_mostly = TCP_DELACK_SEG;
 EXPORT_SYMBOL(sysctl_tcp_delack_seg);
 
 int sysctl_tcp_use_userconfig __read_mostly;
-EXPORT_SYMBOL(sysctl_tcp_use_userconfig);
+//EXPORT_SYMBOL(sysctl_tcp_use_userconfig);
 
 atomic_long_t tcp_memory_allocated;	
 EXPORT_SYMBOL(tcp_memory_allocated);
